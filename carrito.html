@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <div class="logoce"> 
+                    <img src="imagenes1/logo_ocean_journal_blanco.png" alt="logo_ocean_journal_blanco">
+                </div>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="imagenes1/menu25.png" class="menu-icono" alt="Menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li> <a href="index.html">Inicio</a></li>
+                        <li> <a href="tienda.html">Tienda</a></li>
+                        <li> <a href="sustentabilidad.html">Sustentabilidad</a></li>
+                        <li> <a href="carrito.html"> <img src="imagenes1/carro25.png" alt="carro25"></a></li>
+                        <li> <a href="registro.html" target="_blank" class="inicia_sesion"> <img src="imagenes1/inicia_sesion.png" alt="inicia_sesion"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="carrito-vacio">
+            <img src="imagenes1/carrito_vacio.png" alt="Carrito Vacío" class="carrito-vacio-imagen">
+            <h1>Carrito Vacío</h1>
+            <p>Añade un producto para comenzar.</p>
+            <button onclick="location.href='tienda.html'">Ir a la Tienda</button>
+        </section>
+
+        
+        <section class="favoritos-publico">
+            <div class="favoritos-content">
+                <h1>Los Favoritos del Público</h1>
+                <p>Descubre los productos más populares entre nuestros clientes.</p>
+                <div class="carrusel">
+                    <div class="carrusel-item"><img src="imagenes1/agenda_astro_whale.png" alt="Favorito 1"></div>
+                    <div class="carrusel-item"><img src="imagenes1/agenda_ballena_madre.png" alt="Favorito 2"></div>
+                    <div class="carrusel-item"><img src="imagenes1/agenda_blue_whale.png" alt="Favorito 3"></div>
+                    <div class="carrusel-item"><img src="imagenes1/agenda_estanque_koi.png" alt="Favorito 4"></div>
+                    <div class="carrusel-item"><img src="imagenes1/agenda_turtle.png" alt="Favorito 5"></div>
+                </div>
+            </div>
+        </section>
+
+       <div class="mira-como-lo-creamos">
+            <h1>Mira Cómo lo Creamos</h1>
+            <p>Aquí puedes ver un video sobre nuestro proceso de creación.</p>
+            <video controls>
+                <source src="video/fabriacion.mov" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+            <button href="sustentabilidad.html">Saber Más</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <img src="imagenes1/logo_ocean_journal_blanco.png" alt="Ocean Journal Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="sustentabilidad.html">Sustentabilidad</a></li>
+                </ul>
+            </nav>
+            <div class="newsletter">
+                <input type="email" placeholder="¡Obtén ofertas exclusivas!">
+                <button>Enviar</button>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="imagenes1/icono_facebook_c.png" alt="Facebook"></a>
+                <a href="#"><img src="imagenes1/icono_instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imagenes1/icono_pinterest_c.png" alt="Pinterest"></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de Privacidad</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
